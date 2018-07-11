@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>lifegame-sir-sample</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="cells-container"></div>
+
+  <div>
+    <p>p(ratio to be infectious): <input type="text" id="value-p" value="0.2"></p>
+    <p>q(initial ratio to be infectious): <input type="text" id="value-q" value="0.05"></p>
+    <p>r(initial ratio to be recovered): <input type="text" id="value-r" value="0.01"></p>
+    <p><button id="initialize-doms">Initialize</button>
+       <button id="nextstep">Next step</button></p>
+  </div>
+
+  <table id="values-area"></table>
+  <script src="main.js"></script> 
+</body>
+</html>

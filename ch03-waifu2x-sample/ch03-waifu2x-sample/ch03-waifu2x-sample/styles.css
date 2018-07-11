@@ -1,0 +1,29 @@
+html, body {
+  padding: 0;
+  margin: 10px;
+}
+
+#cells-container {
+  margin: 15px;
+  line-height: 0;
+}
+
+.cell {
+  border: #eee solid 1px;
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+}
+
+.cell-infectious {
+  background-color: #222;
+}
+
+.cell-recovered {
+  background-color: #ccc;
+}
+
+#values-area {
+  margin: 15px;
+}
